@@ -2,7 +2,6 @@
 ## Create a file and add the following
 ```
 module "db" {
-source = "module "instance" {
   source  = "Voyagese/instance/rds"
 region = "us-east-2"
 subnet_ids = [
